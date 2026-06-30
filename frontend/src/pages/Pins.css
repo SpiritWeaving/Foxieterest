@@ -1,0 +1,6 @@
+.pins_list{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    flex-wrap: wrap;
+}

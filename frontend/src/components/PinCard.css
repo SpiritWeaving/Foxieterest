@@ -1,0 +1,29 @@
+.pin__content{
+    width: 100%;
+    overflow: hidden;
+    height: 250px;
+    border-bottom: 1px solid gray;
+}
+
+.pin__description_container{
+    display: flex;
+    align-items: center;
+}
+
+.pin__title{
+    color: #000;
+    margin: 0;
+}
+
+.pin__content__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pin__card{
+    border-radius: 10px;
+    overflow: hidden;
+    width: 15rem;
+    border: 2px solid gray;
+}
