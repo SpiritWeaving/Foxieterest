@@ -36,7 +36,17 @@ class BoardSerializer(serializers.ModelSerializer):
     def get_pins(self, obj):
         return list(obj.pins.values('id', 'title', 'content', 'is_private'))
 
+#======Учетная запись========
+class UserSerializer(serializers.ModelSerializer):
+    boards = BoardSerializer(many=True, read_only=True)
+    class Meta:
+        model = User
+        fields = ('id', 'username', 'email', 'avatar', 'created_at', 'boards')
+        read_only_fields = ('id', 'created_at')
+
+
 class PinSerializer(serializers.ModelSerializer):
+    liked_by = UserSerializer(many=True, read_only=True)
     boards = serializers.SerializerMethodField(read_only=True)
     comments = CommentSerializer(many=True, read_only=True)
     user_name = serializers.CharField(source='user.username', read_only=True)
@@ -53,7 +63,7 @@ class PinSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Pin
-        fields = ('id', 'title', 'description', 'content', 'user', 'user_name', 'is_image', 'is_video',
+        fields = ('id', 'title', 'description', 'content', 'user', 'user_name', 'liked_by', 'is_image', 'is_video',
                   'user_avatar', 'created_at', 'updated_at', 'is_private', 'boards', 'comments')
         read_only_fields = ('id', 'created_at', 'updated_at')
 
@@ -75,14 +85,6 @@ class PinSerializer(serializers.ModelSerializer):
             result.append(board.title)
         return result
 
-#======Учетная запись========
-
-class UserSerializer(serializers.ModelSerializer):
-    boards = BoardSerializer(many=True, read_only=True)
-    class Meta:
-        model = User
-        fields = ('id', 'username', 'email', 'avatar', 'created_at', 'boards')
-        read_only_fields = ('id', 'created_at')
 
 class RegisterSerializer(serializers.ModelSerializer):
     password = serializers.CharField(write_only=True,

@@ -10,7 +10,7 @@ const Navbar = () => {
         navigate('/login');
     };
     return (
-        <AppBar position="static" sx={{ backgroundColor: '#800b32', boxShadow: 'none' }}>
+        <AppBar position="static" sx={{ backgroundColor: '#7793a1', boxShadow: 'none' }}>
             <Toolbar>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     <Link to="/" style={{
@@ -24,6 +24,9 @@ const Navbar = () => {
                         <Typography variant="body1" component="span" sx={{
                             mr: 2
                         }}>
+                            <img src={`http://127.0.0.1:8000${user?.avatar}`}
+                            style={{borderRadius: '50%', width: '40px',
+                                height: '40px', objectFit: 'cover'}}/>
                             {user?.username}
                         </Typography>
                         <Button color="inherit" onClick={handleLogout}>

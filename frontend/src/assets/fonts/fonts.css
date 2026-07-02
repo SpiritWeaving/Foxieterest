@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Gotham Pro";
+  src:
+    url(./gothampro.ttf) format('truetype');
+  font-weight: medium;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src:
+    url(./gothampro_italic.ttf) format('truetype');
+  font-weight: medium;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src:
+    url(./gothampro_bold.ttf) format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src:
+    url(./gothampro_bolditalic.ttf) format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src:
+    url(./gothampro_light.ttf) format('truetype');
+  font-weight: light;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gotham Pro";
+  src:
+    url(./gothampro_lightitalic.ttf) format('truetype');
+  font-weight: light;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Din Pro Black";
+  src:
+    url(./din_pro_black.ttf) format('truetype');
+  font-weight: black;
+  font-style: normal;
+}
+
+/* Применение шрифта к элементам сайта */
+body {
+  font-family: 'Gotham Pro', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Din Pro Black', sans-serif;
+}

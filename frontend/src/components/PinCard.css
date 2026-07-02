@@ -5,14 +5,27 @@
     border-bottom: 1px solid gray;
 }
 
+.pin__content__video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .pin__description_container{
     display: flex;
     align-items: center;
+    padding: 1rem;
+    overflow: hidden;
 }
 
 .pin__title{
     color: #000;
     margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
 }
 
 .pin__content__img{
@@ -22,8 +35,9 @@
 }
 
 .pin__card{
+    /*height: 280px;*/
     border-radius: 10px;
     overflow: hidden;
-    width: 15rem;
+    width: 13rem;
     border: 2px solid gray;
 }

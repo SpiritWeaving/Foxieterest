@@ -27,6 +27,7 @@ class PinAdmin(admin.ModelAdmin):
     search_fields = ('title', 'user__username')
     list_editable = ('is_private',)
     list_filter = ('is_private',)
+    filter_horizontal = ('liked_by',)
     date_hierarchy = 'created_at' #навигация по дате
     empty_value_display = "-empty-" #отображение для пустых полей
     #inlines = [PinBoardInline, CommentInline]

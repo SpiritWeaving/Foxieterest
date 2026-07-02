@@ -5,34 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f812f8af-3ae1-4801-9956-92a2844da1c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Lushaterest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/LoginForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PinCard.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PinCard.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PrivateRoute.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/PublicRoute.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/components/RegisterForm.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/context/AuthContext.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/PinDetail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Pins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Pins.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/pages/Profile.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/api.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/services/authService.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lushaterest/foxieterest/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lushaterest/foxieterest/management/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lushaterest/foxieterest/management/commands/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lushaterest/foxieterest/management/commands/seed_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lushaterest/foxieterest/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/components/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/PinCard.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/PinCard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/components/PinCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/PinCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lushaterest/foxieterest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/lushaterest/foxieterest/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lushaterest/foxieterest/api/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/lushaterest/foxieterest/api/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lushaterest/foxieterest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/lushaterest/foxieterest/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -39,6 +39,7 @@ class Pin(models.Model):
     boards = models.ManyToManyField(Board, related_name="pins")
     title = models.CharField(max_length=50, verbose_name="Название поста",
                              db_index=True)
+    liked_by = models.ManyToManyField(User, related_name="likes", verbose_name="Лайки")
     description = models.TextField(max_length=200, blank=True,
                                    verbose_name="Описание")
     content = models.FileField(upload_to="uploads/", blank=True, null=True,
